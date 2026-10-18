@@ -1,0 +1,55 @@
+# If you prefer the allow list template instead of the deny list, see community template:
+# https://github.com/github/gitignore/blob/main/community/Golang/Go.AllowList.gitignore
+#
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Test binary, built with `go test -c`
+*.test
+
+# Code coverage profiles and other test artifacts
+*.out
+coverage.*
+!coverage.go
+*.coverprofile
+profile.cov
+
+# Dependency directories (remove the comment below to include it)
+# vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# env file
+.env
+
+# Editor/IDE
+.idea/
+.vscode/
+*.iml
+
+# Runtime data — private (bot database, wallets, backups). Never release.
+data/
+*.db
+*.db-shm
+*.db-wal
+
+# Quarantine folder — private files that must never be released.
+نه/
+
+# Documentation site build artifacts
+node_modules/
+website/node_modules/
+website/docs/
+.vitepress/dist
+.vitepress/cache
+website/.vitepress/dist
+website/.vitepress/cache
+
+# Local file backups
+*.backup
